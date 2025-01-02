@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5950/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Stat 306 Project Final Report</title>
+<style class="anchorjs"></style><style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="./Stat 306 Project Final Report_files/clipboard.min.js"></script>
+<script src="./Stat 306 Project Final Report_files/quarto.js"></script>
+<script src="./Stat 306 Project Final Report_files/popper.min.js"></script>
+<script src="./Stat 306 Project Final Report_files/tippy.umd.min.js"></script>
+<script src="./Stat 306 Project Final Report_files/anchor.min.js"></script>
+<link href="./Stat 306 Project Final Report_files/tippy.css" rel="stylesheet">
+<link href="./Stat 306 Project Final Report_files/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="./Stat 306 Project Final Report_files/bootstrap.min.js"></script>
+<link href="./Stat 306 Project Final Report_files/bootstrap-icons.css" rel="stylesheet">
+<link href="./Stat 306 Project Final Report_files/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+<style>.ansi-display{font-family:monospace;white-space:pre-wrap;--ansiBlack: #000000;--ansiRed: #cd3131;--ansiGreen: #00BC00;--ansiYellow: #949800;--ansiBlue: #0451a5;--ansiMagenta: #bc05bc;--ansiCyan: #0598bc;--ansiWhite: #555555;--ansiBrightBlack: #666666;--ansiBrightRed: #cd3131;--ansiBrightGreen: #14CE14;--ansiBrightYellow: #b5ba00;--ansiBrightBlue: #0451a5;--ansiBrightMagenta: #bc05bc;--ansiBrightCyan: #0598bc;--ansiBrightWhite: #a5a5a5}.dark-mode .ansi-display{--ansiBlack: #000000;--ansiRed: #cd3131;--ansiGreen: #0DBC79;--ansiYellow: #e5e510;--ansiBlue: #2472c8;--ansiMagenta: #bc3fbc;--ansiCyan: #11a8cd;--ansiWhite: #e5e5e5;--ansiBrightBlack: #666666;--ansiBrightRed: #f14c4c;--ansiBrightGreen: #23d18b;--ansiBrightYellow: #f5f543;--ansiBrightBlue: #3b8eea;--ansiBrightMagenta: #d670d6;--ansiBrightCyan: #29b8db;--ansiBrightWhite: #e5e5e5}@keyframes ansi-displaly-run-blink{50%{opacity:0}}.fui-FluentProvider h2{border-bottom:none;padding-bottom:0}</style><style data-make-styles-bucket="d" data-priority="0"></style><style id="fui-FluentProviderr0"></style></head>
+
+<body class="fullcontent quarto-light" data-tabster="{&quot;root&quot;:{}}" data-new-gr-c-s-check-loaded="14.1211.0" data-gr-ext-installed="">
+
+<i tabindex="0" role="none" data-tabster-dummy="" aria-hidden="true" style="position: fixed; height: 1px; width: 1px; opacity: 0.001; z-index: -1; content-visibility: hidden; top: 0px; left: 0px;"></i><div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Stat 306 Project Final Report</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="stat306-final-report" class="level1">
+<h1>STAT306 Final Report</h1>
+<p><strong>Group members:</strong> Luoqi Wang, Liuruo HAN, Siraaj Singh Monga, Vaibhav Sharma</p>
+<section id="background-and-context" class="level2">
+<h2 class="anchored" data-anchor-id="background-and-context">Background and Context<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#background-and-context" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<p>University rankings have become a critical measure of institutional performance in the global education landscape. These rankings influence decisions by prospective students, faculty, and funding organizations, making them a significant factor in shaping higher education policies and strategies. Key drivers of a university’s overall performance include factors such as admissions policies, faculty credentials, research output, and geographical location. Global rankings often reflect disparities between institutions across different regions, highlighting the influence of economic, cultural, and systemic factors on higher education quality.</p>
+</section>
+<section id="research-motivation" class="level2">
+<h2 class="anchored" data-anchor-id="research-motivation">Research Motivation<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#research-motivation" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<p>The motivation for examining this research question is to better understand the factors that contribute to a university’s overall performance as measured by global rankings. By investigating the extent to which location and other explanatory variables impact overall scores, this study aims to shed light on significant trends and disparities in university performance across countries. These insights could enable universities to make data-driven improvements to enhance their rankings and provide prospective students with a clearer framework for making informed educational choices.</p>
+</section>
+<section id="data-set-description" class="level2">
+<h2 class="anchored" data-anchor-id="data-set-description">Data set Description<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#data-set-description" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<p>In this project, we use a public data set named <a href="https://www.kaggle.com/datasets/alitaqi000/world-university-rankings-2023/data">World University Rankings 2023</a> on Kaggle.</p>
+<p>The 2023 World University Rankings feature 1,799 universities from 104 countries, assessed across 13 performance indicators in teaching, research, knowledge transfer, and international outlook. This year’s analysis includes 121 million citations, 15.5 million publications, and survey responses from 40,000 scholars, drawing on data from 2,500 institutions.</p>
+<section id="data-collection-methodology" class="level3">
+<h3 class="anchored" data-anchor-id="data-collection-methodology">Data collection methodology<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#data-collection-methodology" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<p>The data was collected using web scraping techniques, followed by manipulation and preprocessing with Python libraries such as Pandas. These steps ensured the dataset’s integrity and usability for further analysis. (Source: Kaggle).</p>
+</section>
+<section id="loading-the-dataset-into-r" class="level3">
+<h3 class="anchored" data-anchor-id="loading-the-dataset-into-r">Loading the dataset into R<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#loading-the-dataset-into-r" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="http://localhost:5950/#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load dataset</span></span>
+<span id="cb1-2"><a href="http://localhost:5950/#cb1-2" aria-hidden="true" tabindex="-1"></a>rank <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"./data.csv"</span>,<span class="at">header =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-3"><a href="http://localhost:5950/#cb1-3" aria-hidden="true" tabindex="-1"></a>rank <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(rank)</span>
+<span id="cb1-4"><a href="http://localhost:5950/#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(rank)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "University.Rank"             "Name.of.University"         
+ [3] "Location"                    "No.of.student"              
+ [5] "No.of.student.per.staff"     "International.Student"      
+ [7] "Female.Male.Ratio"           "OverAll.Score"              
+ [9] "Teaching.Score"              "Research.Score"             
+[11] "Citations.Score"             "Industry.Income.Score"      
+[13] "International.Outlook.Score"</code></pre>
+</div>
+</div>
+<p>According to the <a href="https://en.wikipedia.org/wiki/QS_World_University_Rankings">QS ranking overall score calculation rule given by Wikipadia</a>,the academic reputation (<code>Teaching.Score</code><em>,</em> <code>Research.Score</code>) accounts for 40% of the overall score; the faculty/student ratio (<code>No.of.student.per.staff</code>) accounts for 15% of the overall score; the citations/faculty (<code>Citiations.Score</code>) accounts for 20% of the overall score; the employer reputation(<code>Industry.Income.Score</code>) accounts for 15% of the overall score; the internationalization (<code>International.Outlook.Score</code>) accounts 10% of the overall score.</p>
+</section>
+</section>
+<section id="description-of-the-variables" class="level2">
+<h2 class="anchored" data-anchor-id="description-of-the-variables">Description of the variables<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#description-of-the-variables" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Factor Name</strong></th>
+<th><strong>Data Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>University Rank</code></td>
+<td>Continuous</td>
+<td>Rank of the university in the global rankings.</td>
+</tr>
+<tr class="even">
+<td><code>Name of University</code></td>
+<td>Categorical</td>
+<td>Name of the university.</td>
+</tr>
+<tr class="odd">
+<td><code>Location</code></td>
+<td>Categorical</td>
+<td>Location of the university (e.g., United Kingdom, United States, etc.).</td>
+</tr>
+<tr class="even">
+<td><code>No of Student</code></td>
+<td>Continuous</td>
+<td>Total number of students enrolled at the university.</td>
+</tr>
+<tr class="odd">
+<td><code>No of Student per Staff</code></td>
+<td>Continuous</td>
+<td>Ratio of the number of students to the number of staff members.</td>
+</tr>
+<tr class="even">
+<td><code>International Student</code></td>
+<td>Continuous</td>
+<td>Percentage of international students enrolled at the university.</td>
+</tr>
+<tr class="odd">
+<td><code>Female : Male Ratio</code></td>
+<td>Continuous</td>
+<td>Ratio of female students to male students at the university.</td>
+</tr>
+<tr class="even">
+<td><code>Overall Score</code></td>
+<td>Continuous</td>
+<td>Overall score of the university, based on multiple performance indicators.</td>
+</tr>
+<tr class="odd">
+<td><code>Teaching Score</code></td>
+<td>Continuous</td>
+<td>Score representing the university’s teaching quality.</td>
+</tr>
+<tr class="even">
+<td><code>Research Score</code></td>
+<td>Continuous</td>
+<td>Score representing the university’s research performance.</td>
+</tr>
+<tr class="odd">
+<td><code>Citations Score</code></td>
+<td>Continuous</td>
+<td>Score based on academic citations of the university’s research work.</td>
+</tr>
+<tr class="even">
+<td><code>Industry Income Score</code></td>
+<td>Continuous</td>
+<td>Score representing the university’s industry income.</td>
+</tr>
+<tr class="odd">
+<td><code>International Outlook Score</code></td>
+<td>Continuous</td>
+<td>Score based on the internationalization and global outlook of the university.</td>
+</tr>
+</tbody>
+</table>
+<p>So since there’s a known relationship between overall score and all those partial score, we decided to drop those variables. However, we keep <code>No.of.student.per.staff</code> because it hasn’t be calculated as a score, so we could still use this raw number to dig into further research.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="http://localhost:5950/#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">unique</span>(rank<span class="sc">$</span>Location)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  [1] "United Kingdom"       "United States"        "Switzerland"         
+  [4] ""                     "Canada"               "Australia"           
+  [7] "Singapore"            "Japan"                "France"              
+ [10] "Sweden"               "China"                "South Korea"         
+ [13] "Netherlands"          "Germany"              "Belgium"             
+ [16] "Finland"              "Denmark"              "Austria"             
+ [19] "Norway"               "New Zealand"          "Spain"               
+ [22] "Italy"                "Saudi Arabia"         "Luxembourg"          
+ [25] "Qatar"                "Brazil"               "Israel"              
+ [28] "Ireland"              "Taiwan"               "India"               
+ [31] "United Arab Emirates" "Brunei Darussalam"    "Iceland"             
+ [34] "Lebanon"              "Philippines"          "Portugal"            
+ [37] "Iran"                 "Malaysia"             "Poland"              
+ [40] "Egypt"                "Turkey"               "Greece"              
+ [43] "Vietnam"              "Algeria"              "Nigeria"             
+ [46] "Tanzania"             "Chile"                "Pakistan"            
+ [49] "Ukraine"              "Romania"              "Czech Republic"      
+ [52] "South Africa"         "Northern Cyprus"      "Hong Kong"           
+ [55] "Ethiopia"             "Jordan"               "Serbia"              
+ [58] "Sri Lanka"            "Jamaica"              "Zambia"              
+ [61] "Iraq"                 "Costa Rica"           "Cyprus"              
+ [64] "Bangladesh"           "Mozambique"           "Colombia"            
+ [67] "Kenya"                "Namibia"              "Peru"                
+ [70] "Latvia"               "Oman"                 "Thailand"            
+ [73] "Lithuania"            "Slovenia"             "Uganda"              
+ [76] "Malta"                "Nepal"                "Kazakhstan"          
+ [79] "Mexico"               "Botswana"             "Slovakia"            
+ [82] "Ghana"                "Morocco"              "Georgia"             
+ [85] "Tunisia"              "Mauritius"            "Hungary"             
+ [88] "Puerto Rico"          "Ecuador"              "Fiji"                
+ [91] "Croatia"              "Estonia"              "Zimbabwe"            
+ [94] "Indonesia"            "Argentina"            "Bulgaria"            
+ [97] "Venezuela"            "Azerbaijan"           "Cuba"                
+[100] "Montenegro"           "Uzbekistan"           "Palestine"           
+[103] "Kuwait"               "Somalia"              "Libya"               
+[106] "Moldova"              "Kyrgyzstan"           "Malawi"              
+[109] "Paraguay"             "Mongolia"             "Armenia"             
+[112] "Sudan"                "Turkmenistan"         "Uruguay"             
+[115] "Albania"              "Cambodia"             "Kosovo"              </code></pre>
+</div>
+</div>
+<p>Additionally, since the universities in data set are from a wide range of country, we only select Canada, United States and United Kingdom in this project.</p>
+<p>A brief description of the variables we will use is shown below.</p>
+<table class="caption-top table">
+<caption>Based on the filtered dataset, we are going to figure out how can the university location (0 = Canada, 1 = US, 2 = UK) and various explanatory variables (No.of.student, No.of.student.per.staff, International.Student and Female.Male.Ratio) influenced the world university overall score in 2023.</caption>
+<colgroup>
+<col style="width: 26%">
+<col style="width: 26%">
+<col style="width: 47%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Factor Name</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr class="even">
+<td>OverAll.Score</td>
+<td>Continuous</td>
+<td>Overall scores of the Universities.</td>
+</tr>
+<tr class="odd">
+<td>Location</td>
+<td>Categorical</td>
+<td>Location of the Universities. 0 = Canada, 1 = US, 2 = UK.</td>
+</tr>
+<tr class="even">
+<td>No.of.student</td>
+<td>Continuous</td>
+<td>Number of students of the Universities.</td>
+</tr>
+<tr class="odd">
+<td>No.of.student.per.staff</td>
+<td>Continuous</td>
+<td>Number of students per staff of the Universities.</td>
+</tr>
+<tr class="even">
+<td>International.Student</td>
+<td>Continuous</td>
+<td>International students proportion of the Universities.</td>
+</tr>
+<tr class="odd">
+<td>Female.Male.Ratio</td>
+<td>Continuous</td>
+<td>Female and Male ratio of the Universities.</td>
+</tr>
+</tbody>
+</table>
+<section id="feature-cleaning-and-transformation" class="level3">
+<h3 class="anchored" data-anchor-id="feature-cleaning-and-transformation">1. Feature cleaning and transformation<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#feature-cleaning-and-transformation" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<p>Firstly, based on our discussion in the previous section, we selected the variables we would use and filtered the universities in Canada, United States and United Kingdom.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="http://localhost:5950/#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the packages</span></span>
+<span id="cb5-2"><a href="http://localhost:5950/#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="http://localhost:5950/#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb9-2"><a href="http://localhost:5950/#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
+<span id="cb9-3"><a href="http://localhost:5950/#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="http://localhost:5950/#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 1: Wrangle the data</span></span>
+<span id="cb9-5"><a href="http://localhost:5950/#cb9-5" aria-hidden="true" tabindex="-1"></a>rank_wrangled <span class="ot">&lt;-</span> rank <span class="sc">%&gt;%</span></span>
+<span id="cb9-6"><a href="http://localhost:5950/#cb9-6" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(</span>
+<span id="cb9-7"><a href="http://localhost:5950/#cb9-7" aria-hidden="true" tabindex="-1"></a>    Location,</span>
+<span id="cb9-8"><a href="http://localhost:5950/#cb9-8" aria-hidden="true" tabindex="-1"></a>    No.of.student,</span>
+<span id="cb9-9"><a href="http://localhost:5950/#cb9-9" aria-hidden="true" tabindex="-1"></a>    No.of.student.per.staff,</span>
+<span id="cb9-10"><a href="http://localhost:5950/#cb9-10" aria-hidden="true" tabindex="-1"></a>    International.Student,</span>
+<span id="cb9-11"><a href="http://localhost:5950/#cb9-11" aria-hidden="true" tabindex="-1"></a>    Female.Male.Ratio,</span>
+<span id="cb9-12"><a href="http://localhost:5950/#cb9-12" aria-hidden="true" tabindex="-1"></a>    OverAll.Score</span>
+<span id="cb9-13"><a href="http://localhost:5950/#cb9-13" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb9-14"><a href="http://localhost:5950/#cb9-14" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb9-15"><a href="http://localhost:5950/#cb9-15" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Filter only relevant locations</span></span>
+<span id="cb9-16"><a href="http://localhost:5950/#cb9-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Location <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Canada"</span>, <span class="st">"United States"</span>, <span class="st">"United Kingdom"</span>))</span>
+<span id="cb9-17"><a href="http://localhost:5950/#cb9-17" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(rank_wrangled)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>        Location No.of.student No.of.student.per.staff International.Student
+1 United Kingdom        20,965                    10.6                   42%
+2  United States        21,887                     9.6                   25%
+3 United Kingdom        20,185                    11.3                   39%
+4  United States        16,164                     7.1                   24%
+5  United States        11,415                     8.2                   33%
+6  United States         2,237                     6.2                   34%
+  Female.Male.Ratio OverAll.Score
+1           48 : 52          96.4
+2           50 : 50          95.2
+3           47 : 53          94.8
+4           46 : 54          94.8
+5           40 : 60          94.2
+6           37 : 63          94.1</code></pre>
+</div>
+</div>
+<p>And then, let’s take a look at the summary of the data now.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="http://localhost:5950/#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(rank_wrangled)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   Location         No.of.student      No.of.student.per.staff
+ Length:341         Length:341         Min.   :  1.00         
+ Class :character   Class :character   1st Qu.: 12.00         
+ Mode  :character   Mode  :character   Median : 15.80         
+                                       Mean   : 15.81         
+                                       3rd Qu.: 18.40         
+                                       Max.   :130.90         
+ International.Student Female.Male.Ratio  OverAll.Score     
+ Length:341            Length:341         Length:341        
+ Class :character      Class :character   Class :character  
+ Mode  :character      Mode  :character   Mode  :character  
+                                                            
+                                                            
+                                                            </code></pre>
+</div>
+</div>
+<p>We could see that although <code>No.of.student</code> , <code>International .Student</code>, <code>Female.Male.Ratio</code> and <code>OverAll.Score</code> looks like number, but they are actually Character type. So we need to transfer them to numeric.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="http://localhost:5950/#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">unique</span>(rank_wrangled<span class="sc">$</span>OverAll.Score)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "96.4"      "95.2"      "94.8"      "94.2"      "94.1"      "92.4"     
+ [7] "92.1"      "91.4"      "90.4"      "89.4"      "88.9"      "88.8"     
+[13] "88.3"      "87.4"      "85.9"      "85.8"      "85.7"      "82.9"     
+[19] "82.7"      "82.6"      "82.1"      "81.1"      "79.8"      "78.1"     
+[25] "77.1"      "76.5"      "76.0"      "75.7"      "72.7"      "72.3"     
+[31] "70.6"      "69.3"      "68.5"      "68.4"      "68.3"      "67.8"     
+[37] "67.5"      "65.5"      "65.3"      "63.6"      "63.5"      "63.0"     
+[43] "62.9"      "62.8"      "62.6"      "62.2"      "61.1"      "60.8"     
+[49] "60.7"      "60.4"      "60.1"      "59.8"      "59.6"      "59.0"     
+[55] "58.6"      "58.5"      "58.4"      "58.3"      "57.9"      "57.8"     
+[61] "57.7"      "57.6"      "57.4"      "56.9"      "56.6"      "56.5"     
+[67] "55.9"      "55.8"      "54.9"      "54.8"      "54.6"      "54.4"     
+[73] "51.2–54.3" "48.9–51.1" "47.0–48.7" "45.0–46.9" "42.1–44.9" "39.3–42.0"
+[79] "34.0–39.2" "29.8–33.9" "24.4–29.7" "18.4–24.3" "n/a"       ""         </code></pre>
+</div>
+</div>
+<p>We could see there’s some imputation. We dropped the rows with NA.</p>
+<p>Also, if we look at the <code>OverAll.Score</code> , we could see that for some universities, they only have range for the overall score, not a specific number. So we assigned the mean number of the range to the coresponding universities.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="http://localhost:5950/#cb15-1" aria-hidden="true" tabindex="-1"></a>rank_wrangled <span class="ot">&lt;-</span> rank_wrangled <span class="sc">%&gt;%</span></span>
+<span id="cb15-2"><a href="http://localhost:5950/#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb15-3"><a href="http://localhost:5950/#cb15-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Handle ranges in 'OverAll.Score'</span></span>
+<span id="cb15-4"><a href="http://localhost:5950/#cb15-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">OverAll.Score =</span> <span class="fu">ifelse</span>(</span>
+<span id="cb15-5"><a href="http://localhost:5950/#cb15-5" aria-hidden="true" tabindex="-1"></a>      <span class="fu">grepl</span>(<span class="st">"–|-"</span>, OverAll.Score),</span>
+<span id="cb15-6"><a href="http://localhost:5950/#cb15-6" aria-hidden="true" tabindex="-1"></a>      <span class="fu">sapply</span>(<span class="fu">strsplit</span>(<span class="fu">as.character</span>(OverAll.Score), <span class="st">"[–-]"</span>), <span class="cf">function</span>(x)</span>
+<span id="cb15-7"><a href="http://localhost:5950/#cb15-7" aria-hidden="true" tabindex="-1"></a>        <span class="fu">mean</span>(<span class="fu">as.numeric</span>(x))),</span>
+<span id="cb15-8"><a href="http://localhost:5950/#cb15-8" aria-hidden="true" tabindex="-1"></a>      <span class="fu">as.numeric</span>(rank_wrangled<span class="sc">$</span>OverAll.Score)</span>
+<span id="cb15-9"><a href="http://localhost:5950/#cb15-9" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb15-10"><a href="http://localhost:5950/#cb15-10" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb15-11"><a href="http://localhost:5950/#cb15-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">Location =</span> <span class="fu">as.factor</span>(Location),</span>
+<span id="cb15-12"><a href="http://localhost:5950/#cb15-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb15-13"><a href="http://localhost:5950/#cb15-13" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Remove commas from 'No.of.student' and convert to numeric</span></span>
+<span id="cb15-14"><a href="http://localhost:5950/#cb15-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">No.of.student =</span> <span class="fu">as.numeric</span>(<span class="fu">gsub</span>(<span class="st">","</span>, <span class="st">""</span>, No.of.student)),</span>
+<span id="cb15-15"><a href="http://localhost:5950/#cb15-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb15-16"><a href="http://localhost:5950/#cb15-16" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Remove % sign from 'International.Student' and convert to numeric</span></span>
+<span id="cb15-17"><a href="http://localhost:5950/#cb15-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">International.Student =</span> <span class="fu">as.numeric</span>(<span class="fu">gsub</span>(<span class="st">"%"</span>, <span class="st">""</span>, International.Student)),</span>
+<span id="cb15-18"><a href="http://localhost:5950/#cb15-18" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb15-19"><a href="http://localhost:5950/#cb15-19" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert 'No.of.student.per.staff' to numeric</span></span>
+<span id="cb15-20"><a href="http://localhost:5950/#cb15-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">No.of.student.per.staff =</span> <span class="fu">as.numeric</span>(No.of.student.per.staff),</span>
+<span id="cb15-21"><a href="http://localhost:5950/#cb15-21" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb15-22"><a href="http://localhost:5950/#cb15-22" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert 'Female.Male.Ratio' from "x : y" to numeric ratio x/y</span></span>
+<span id="cb15-23"><a href="http://localhost:5950/#cb15-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">Female.Male.Ratio =</span> <span class="fu">as.numeric</span>(<span class="fu">sub</span>(<span class="st">":.*"</span>, <span class="st">""</span>, Female.Male.Ratio)) <span class="sc">/</span></span>
+<span id="cb15-24"><a href="http://localhost:5950/#cb15-24" aria-hidden="true" tabindex="-1"></a>      <span class="fu">as.numeric</span>(<span class="fu">sub</span>(<span class="st">".*:"</span>, <span class="st">""</span>, Female.Male.Ratio))</span>
+<span id="cb15-25"><a href="http://localhost:5950/#cb15-25" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb15-26"><a href="http://localhost:5950/#cb15-26" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb15-27"><a href="http://localhost:5950/#cb15-27" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Drop rows with missing or invalid values</span></span>
+<span id="cb15-28"><a href="http://localhost:5950/#cb15-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There were 56 warnings in `mutate()`.
+The first warning was:
+ℹ In argument: `OverAll.Score = ifelse(...)`.
+Caused by warning in `mean()`:
+! NAs introduced by coercion
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 55 remaining warnings.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="http://localhost:5950/#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(rank_wrangled)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>        Location No.of.student No.of.student.per.staff International.Student
+1 United Kingdom         20965                    10.6                    42
+2  United States         21887                     9.6                    25
+3 United Kingdom         20185                    11.3                    39
+4  United States         16164                     7.1                    24
+5  United States         11415                     8.2                    33
+6  United States          2237                     6.2                    34
+  Female.Male.Ratio OverAll.Score
+1         0.9230769          96.4
+2         1.0000000          95.2
+3         0.8867925          94.8
+4         0.8518519          94.8
+5         0.6666667          94.2
+6         0.5873016          94.1</code></pre>
+</div>
+</div>
+<p>Now, the data is transferred to the version that we can directly used to visualize or fit model.</p>
+</section>
+</section>
+<section id="exploratory-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="exploratory-analysis">Exploratory Analysis<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#exploratory-analysis" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<section id="overview-of-overall-score." class="level4">
+<h4 class="anchored" data-anchor-id="overview-of-overall-score.">(1) Overview of Overall Score.<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#overview-of-overall-score." style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="http://localhost:5950/#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">#  Distribution of Overall Score:</span></span>
+<span id="cb19-2"><a href="http://localhost:5950/#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(rank_wrangled, <span class="fu">aes</span>(<span class="at">x =</span> OverAll.Score)) <span class="sc">+</span></span>
+<span id="cb19-3"><a href="http://localhost:5950/#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">2</span>, <span class="at">fill =</span> <span class="st">"skyblue"</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
+<span id="cb19-4"><a href="http://localhost:5950/#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Distribution of Overall Score"</span>, <span class="at">x =</span> <span class="st">"Overall Score"</span>, <span class="at">y =</span> <span class="st">"Frequency"</span>) <span class="sc">+</span></span>
+<span id="cb19-5"><a href="http://localhost:5950/#cb19-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="./Stat 306 Project Final Report_files/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This histogram shows the distribution of total scores for 272 universities. Most universities’ scores are concentrated between 30 and 50, reflecting that most institutions perform at a medium level. When the score exceeds 60, the frequency drops significantly, with only a few universities scoring close to 100. The distribution is clearly skewed to the right, indicating that top universities with scores above 80 are relatively rare. This shows that while a few universities perform well, the overall performance of most universities is still concentrated in the low-to-medium score range.</p>
+</section>
+<section id="boxplots-for-each-variable-by-location" class="level4">
+<h4 class="anchored" data-anchor-id="boxplots-for-each-variable-by-location">(2) Boxplots for each variable by Location<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#boxplots-for-each-variable-by-location" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="http://localhost:5950/#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplots for Each Variable by Location</span></span>
+<span id="cb20-2"><a href="http://localhost:5950/#cb20-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-3"><a href="http://localhost:5950/#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplot for Overall Score by Location</span></span>
+<span id="cb20-4"><a href="http://localhost:5950/#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(rank_wrangled, <span class="fu">aes</span>(<span class="at">x =</span> Location, <span class="at">y =</span> OverAll.Score, <span class="at">fill =</span> Location)) <span class="sc">+</span></span>
+<span id="cb20-5"><a href="http://localhost:5950/#cb20-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb20-6"><a href="http://localhost:5950/#cb20-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Overall Score by Location"</span>, <span class="at">y =</span> <span class="st">"Overall Score"</span>, <span class="at">x =</span> <span class="st">"Location"</span>) <span class="sc">+</span></span>
+<span id="cb20-7"><a href="http://localhost:5950/#cb20-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="./Stat 306 Project Final Report_files/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="http://localhost:5950/#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplot for Number of Students by Location</span></span>
+<span id="cb21-2"><a href="http://localhost:5950/#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(rank_wrangled, <span class="fu">aes</span>(<span class="at">x =</span> Location, <span class="at">y =</span> No.of.student, <span class="at">fill =</span> Location)) <span class="sc">+</span></span>
+<span id="cb21-3"><a href="http://localhost:5950/#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb21-4"><a href="http://localhost:5950/#cb21-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Number of Students by Location"</span>, <span class="at">y =</span> <span class="st">"Number of Students"</span>, <span class="at">x =</span> <span class="st">"Location"</span>) <span class="sc">+</span></span>
+<span id="cb21-5"><a href="http://localhost:5950/#cb21-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="./Stat 306 Project Final Report_files/unnamed-chunk-8-2.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="http://localhost:5950/#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplot for Student-to-Staff Ratio by Location</span></span>
+<span id="cb22-2"><a href="http://localhost:5950/#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(rank_wrangled, <span class="fu">aes</span>(<span class="at">x =</span> Location, <span class="at">y =</span> No.of.student.per.staff, <span class="at">fill =</span> Location)) <span class="sc">+</span></span>
+<span id="cb22-3"><a href="http://localhost:5950/#cb22-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb22-4"><a href="http://localhost:5950/#cb22-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Student-to-Staff Ratio by Location"</span>, <span class="at">y =</span> <span class="st">"Student-to-Staff Ratio"</span>, <span class="at">x =</span> <span class="st">"Location"</span>) <span class="sc">+</span></span>
+<span id="cb22-5"><a href="http://localhost:5950/#cb22-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="./Stat 306 Project Final Report_files/unnamed-chunk-8-3.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="http://localhost:5950/#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplot for International Student Percentage by Location</span></span>
+<span id="cb23-2"><a href="http://localhost:5950/#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(rank_wrangled, <span class="fu">aes</span>(<span class="at">x =</span> Location, <span class="at">y =</span> International.Student, <span class="at">fill =</span> Location)) <span class="sc">+</span></span>
+<span id="cb23-3"><a href="http://localhost:5950/#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb23-4"><a href="http://localhost:5950/#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"International Students by Location"</span>, <span class="at">y =</span> <span class="st">"Percentage of International Students"</span>, <span class="at">x =</span> <span class="st">"Location"</span>) <span class="sc">+</span></span>
+<span id="cb23-5"><a href="http://localhost:5950/#cb23-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="./Stat 306 Project Final Report_files/unnamed-chunk-8-4.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="summary-statistics-of-the-data" class="level3">
+<h3 class="anchored" data-anchor-id="summary-statistics-of-the-data">Summary Statistics of the data<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#summary-statistics-of-the-data" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="http://localhost:5950/#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># View the processed data</span></span>
+<span id="cb24-2"><a href="http://localhost:5950/#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(rank_wrangled)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>           Location   No.of.student   No.of.student.per.staff
+ Canada        : 17   Min.   : 1015   Min.   : 1.00          
+ United Kingdom: 89   1st Qu.:11211   1st Qu.:12.00          
+ United States :166   Median :17703   Median :15.65          
+                      Mean   :20851   Mean   :15.52          
+                      3rd Qu.:27529   3rd Qu.:18.20          
+                      Max.   :77468   Max.   :36.10          
+ International.Student Female.Male.Ratio OverAll.Score  
+ Min.   : 1.00         Min.   :0.2987    Min.   :21.35  
+ 1st Qu.: 8.00         1st Qu.:1.0408    1st Qu.:36.60  
+ Median :16.00         Median :1.1981    Median :43.50  
+ Mean   :19.41         Mean   :1.2430    Mean   :47.47  
+ 3rd Qu.:28.00         3rd Qu.:1.3810    3rd Qu.:55.83  
+ Max.   :73.00         Max.   :4.0000    Max.   :96.40  </code></pre>
+</div>
+</div>
+</section>
+<section id="interpretation-of-the-summary-for-each-variable" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation-of-the-summary-for-each-variable">Interpretation of the summary for each variable<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#interpretation-of-the-summary-for-each-variable" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<ul>
+<li><p><strong>Location</strong>: Most universities in the dataset are from the United States (166), followed by the United Kingdom (89), and Canada (17).</p></li>
+<li><p><strong>Number of Students</strong>: The number of students varies widely, with the mean being 20,851 and the maximum reaching 77,468 students, indicating a broad range of university sizes.</p></li>
+<li><p><strong>Number of Students per Staff</strong>: The average number of students per staff is around 15.5, with a range from 1.00 to 36.10, highlighting differences in staff-to-student ratios across universities.</p></li>
+<li><p><strong>International Students</strong>: The proportion of international students ranges from 1% to 73%, with a mean of 19.41%, reflecting varied levels of international student enrollment.</p></li>
+<li><p><strong>Female:Male Ratio</strong>: The ratio of female to male students ranges from 0.2987 to 4.00, with a median of 1.1981, indicating some universities have more balanced gender ratios, while others may have significant disparities.</p></li>
+<li><p><strong>Overall Score</strong>: The overall scores range from 21.35 to 96.4, with a mean of 47.47 and a median of 43.50, suggesting a considerable variation in university performance across different countries and regions.</p></li>
+</ul>
+</section>
+<section id="log-transformation-for-skewed-data" class="level3">
+<h3 class="anchored" data-anchor-id="log-transformation-for-skewed-data"><strong>Log Transformation for Skewed Data</strong><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#log-transformation-for-skewed-data" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<ul>
+<li><strong>Transformation</strong>: The <code>No.of.student</code> and <code>No.of.student.per.staff</code> variables may have highly skewed distributions due to large universities dominating the dataset. Applying a <strong>log transformation</strong> (e.g., <code>log(No.of.student + 1)</code>) could make these variables more normally distributed and improve the interpretability of their relationships with other variables.</li>
+</ul>
+</section>
+<section id="section" class="level3">
+<h3 class="anchored" data-anchor-id="section"><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#section" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+</section>
+</section>
+<section id="statistical-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="statistical-analysis">Statistical Analysis<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#statistical-analysis" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<p>After data cleaning and visualization, we proceeded to model building using a systematic approach to identify the best predictive model. Our analysis consisted of three primary steps: forward selection, transformations, and incorporating non-linear terms, with cross-validation to assess model performance.</p>
+<section id="model-forward-selection" class="level3">
+<h3 class="anchored" data-anchor-id="model-forward-selection">1. Model forward selection<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#model-forward-selection" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<p>We used forward selection to identify significant predictors for the dependent variable, <em>Overall Score</em>. The following predictors were evaluated:</p>
+<ul>
+<li><p>Number of Students</p></li>
+<li><p>Number of Students per Staff</p></li>
+<li><p>International Students</p></li>
+<li><p>Female-to-Male Ratio</p></li>
+<li><p>Location</p></li>
+</ul>
+<p>Using the <code>regsubsets</code> function from the <code>leaps</code> package, we evaluated models based on Adjusted R^2. From the results, the variable <em>Location</em> was not significant and was subsequently removed.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="http://localhost:5950/#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Perform forward selection</span></span>
+<span id="cb26-2"><a href="http://localhost:5950/#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaps)</span>
+<span id="cb26-3"><a href="http://localhost:5950/#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Perform forward selection</span></span>
+<span id="cb26-4"><a href="http://localhost:5950/#cb26-4" aria-hidden="true" tabindex="-1"></a>forward_model <span class="ot">&lt;-</span> <span class="fu">regsubsets</span>(</span>
+<span id="cb26-5"><a href="http://localhost:5950/#cb26-5" aria-hidden="true" tabindex="-1"></a>  OverAll.Score <span class="sc">~</span> No.of.student <span class="sc">+</span> No.of.student.per.staff <span class="sc">+</span> International.Student <span class="sc">+</span></span>
+<span id="cb26-6"><a href="http://localhost:5950/#cb26-6" aria-hidden="true" tabindex="-1"></a>    Female.Male.Ratio <span class="sc">+</span> Location,</span>
+<span id="cb26-7"><a href="http://localhost:5950/#cb26-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> rank_wrangled,</span>
+<span id="cb26-8"><a href="http://localhost:5950/#cb26-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">method =</span> <span class="st">"forward"</span>  <span class="co"># Specify forward selection method</span></span>
+<span id="cb26-9"><a href="http://localhost:5950/#cb26-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb26-10"><a href="http://localhost:5950/#cb26-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-11"><a href="http://localhost:5950/#cb26-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Summarize the model results</span></span>
+<span id="cb26-12"><a href="http://localhost:5950/#cb26-12" aria-hidden="true" tabindex="-1"></a>model_summary <span class="ot">&lt;-</span> <span class="fu">summary</span>(forward_model)</span>
+<span id="cb26-13"><a href="http://localhost:5950/#cb26-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-14"><a href="http://localhost:5950/#cb26-14" aria-hidden="true" tabindex="-1"></a><span class="co"># View results</span></span>
+<span id="cb26-15"><a href="http://localhost:5950/#cb26-15" aria-hidden="true" tabindex="-1"></a>model_summary</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Subset selection object
+Call: regsubsets.formula(OverAll.Score ~ No.of.student + No.of.student.per.staff + 
+    International.Student + Female.Male.Ratio + Location, data = rank_wrangled, 
+    method = "forward")
+6 Variables  (and intercept)
+                        Forced in Forced out
+No.of.student               FALSE      FALSE
+No.of.student.per.staff     FALSE      FALSE
+International.Student       FALSE      FALSE
+Female.Male.Ratio           FALSE      FALSE
+LocationUnited Kingdom      FALSE      FALSE
+LocationUnited States       FALSE      FALSE
+1 subsets of each size up to 6
+Selection Algorithm: forward
+         No.of.student No.of.student.per.staff International.Student
+1  ( 1 ) " "           " "                     "*"                  
+2  ( 1 ) " "           " "                     "*"                  
+3  ( 1 ) " "           "*"                     "*"                  
+4  ( 1 ) "*"           "*"                     "*"                  
+5  ( 1 ) "*"           "*"                     "*"                  
+6  ( 1 ) "*"           "*"                     "*"                  
+         Female.Male.Ratio LocationUnited Kingdom LocationUnited States
+1  ( 1 ) " "               " "                    " "                  
+2  ( 1 ) " "               "*"                    " "                  
+3  ( 1 ) " "               "*"                    " "                  
+4  ( 1 ) " "               "*"                    " "                  
+5  ( 1 ) "*"               "*"                    " "                  
+6  ( 1 ) "*"               "*"                    "*"                  </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="http://localhost:5950/#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Find the best model based on Adjusted R-squared</span></span>
+<span id="cb28-2"><a href="http://localhost:5950/#cb28-2" aria-hidden="true" tabindex="-1"></a>best_model_index <span class="ot">&lt;-</span> <span class="fu">which.max</span>(model_summary<span class="sc">$</span>adjr2)</span>
+<span id="cb28-3"><a href="http://localhost:5950/#cb28-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-4"><a href="http://localhost:5950/#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="co"># View the best model's predictors</span></span>
+<span id="cb28-5"><a href="http://localhost:5950/#cb28-5" aria-hidden="true" tabindex="-1"></a>best_model_predictors <span class="ot">&lt;-</span> model_summary<span class="sc">$</span>which[best_model_index, ]</span>
+<span id="cb28-6"><a href="http://localhost:5950/#cb28-6" aria-hidden="true" tabindex="-1"></a>best_model_predictors</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            (Intercept)           No.of.student No.of.student.per.staff 
+                   TRUE                    TRUE                    TRUE 
+  International.Student       Female.Male.Ratio  LocationUnited Kingdom 
+                   TRUE                    TRUE                    TRUE 
+  LocationUnited States 
+                  FALSE </code></pre>
+</div>
+</div>
+<p>From the output, we found that <code>Location</code> is not a significant variable, so we dropped this variable.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="http://localhost:5950/#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit the model</span></span>
+<span id="cb30-2"><a href="http://localhost:5950/#cb30-2" aria-hidden="true" tabindex="-1"></a>model <span class="ot">&lt;-</span> <span class="fu">lm</span>(</span>
+<span id="cb30-3"><a href="http://localhost:5950/#cb30-3" aria-hidden="true" tabindex="-1"></a>  OverAll.Score <span class="sc">~</span> No.of.student <span class="sc">+</span> No.of.student.per.staff <span class="sc">+</span> International.Student <span class="sc">+</span> Female.Male.Ratio,</span>
+<span id="cb30-4"><a href="http://localhost:5950/#cb30-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> rank_wrangled</span>
+<span id="cb30-5"><a href="http://localhost:5950/#cb30-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb30-6"><a href="http://localhost:5950/#cb30-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-7"><a href="http://localhost:5950/#cb30-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary of the model</span></span>
+<span id="cb30-8"><a href="http://localhost:5950/#cb30-8" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(model)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = OverAll.Score ~ No.of.student + No.of.student.per.staff + 
+    International.Student + Female.Male.Ratio, data = rank_wrangled)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-24.056  -8.024  -0.960   5.585  38.599 
+
+Coefficients:
+                          Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)              5.919e+01  3.499e+00  16.915  &lt; 2e-16 ***
+No.of.student            5.949e-04  5.519e-05  10.779  &lt; 2e-16 ***
+No.of.student.per.staff -1.655e+00  1.315e-01 -12.589  &lt; 2e-16 ***
+International.Student    5.537e-01  5.187e-02  10.676  &lt; 2e-16 ***
+Female.Male.Ratio       -7.391e+00  1.745e+00  -4.237 3.13e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 11.61 on 267 degrees of freedom
+Multiple R-squared:  0.565, Adjusted R-squared:  0.5585 
+F-statistic: 86.71 on 4 and 267 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+</div>
+<p>R square is 0.565, which is not a very satisfying score.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="http://localhost:5950/#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate residuals</span></span>
+<span id="cb32-2"><a href="http://localhost:5950/#cb32-2" aria-hidden="true" tabindex="-1"></a>residuals <span class="ot">&lt;-</span> <span class="fu">residuals</span>(model)</span>
+<span id="cb32-3"><a href="http://localhost:5950/#cb32-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-4"><a href="http://localhost:5950/#cb32-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-5"><a href="http://localhost:5950/#cb32-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the residuals</span></span>
+<span id="cb32-6"><a href="http://localhost:5950/#cb32-6" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="fu">data.frame</span>(<span class="at">Predicted =</span> <span class="fu">fitted</span>(model), <span class="at">Residuals =</span> residuals), <span class="fu">aes</span>(<span class="at">x =</span> Predicted, <span class="at">y =</span> Residuals)) <span class="sc">+</span></span>
+<span id="cb32-7"><a href="http://localhost:5950/#cb32-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb32-8"><a href="http://localhost:5950/#cb32-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb32-9"><a href="http://localhost:5950/#cb32-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Residual Plot"</span>, <span class="at">x =</span> <span class="st">"Predicted Values"</span>, <span class="at">y =</span> <span class="st">"Residuals"</span>) <span class="sc">+</span></span>
+<span id="cb32-10"><a href="http://localhost:5950/#cb32-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="./Stat 306 Project Final Report_files/unnamed-chunk-12-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The residual plot illustrates the relationship between predicted values and residuals from the multiple linear regression model. We can see there is a curve pattern on the residual plot, which shows a quadratic pattern, so the simple linear relationship is violated.</p>
+<section id="linear-model-and-residual-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="linear-model-and-residual-analysis"><strong>2. Linear Model and Residual Analysis</strong><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#linear-model-and-residual-analysis" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h4>
+<p>The initial multiple linear regression model was fitted with the selected predictors. The R^2 value of this model was <strong>0.565</strong>, indicating moderate explanatory power. However, an analysis of the residuals revealed a non-linear pattern, violating the assumption of a linear relationship.</p>
+<p>The residual plot showed a quadratic pattern, prompting us to apply a <strong>log transformation</strong> to the dependent variable. This improved the model fit and addressed heteroscedasticity, as observed in the revised residual plot.</p>
+</section>
+</section>
+<section id="log-transformation" class="level3">
+<h3 class="anchored" data-anchor-id="log-transformation">3. Log transformation<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#log-transformation" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<p>To improve, we took log transformation.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="http://localhost:5950/#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit the model with log-transformed dependent variable</span></span>
+<span id="cb33-2"><a href="http://localhost:5950/#cb33-2" aria-hidden="true" tabindex="-1"></a>model_log <span class="ot">&lt;-</span> <span class="fu">lm</span>(</span>
+<span id="cb33-3"><a href="http://localhost:5950/#cb33-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">log</span>(OverAll.Score) <span class="sc">~</span> No.of.student <span class="sc">+</span> No.of.student.per.staff <span class="sc">+</span> International.Student <span class="sc">+</span> Female.Male.Ratio,</span>
+<span id="cb33-4"><a href="http://localhost:5950/#cb33-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> rank_wrangled</span>
+<span id="cb33-5"><a href="http://localhost:5950/#cb33-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb33-6"><a href="http://localhost:5950/#cb33-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-7"><a href="http://localhost:5950/#cb33-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary of the transformed model</span></span>
+<span id="cb33-8"><a href="http://localhost:5950/#cb33-8" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(model_log)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = log(OverAll.Score) ~ No.of.student + No.of.student.per.staff + 
+    International.Student + Female.Male.Ratio, data = rank_wrangled)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.57111 -0.14386  0.01045  0.13553  0.77311 
+
+Coefficients:
+                          Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)              4.016e+00  7.034e-02  57.100  &lt; 2e-16 ***
+No.of.student            1.211e-05  1.109e-06  10.912  &lt; 2e-16 ***
+No.of.student.per.staff -3.258e-02  2.643e-03 -12.327  &lt; 2e-16 ***
+International.Student    1.099e-02  1.043e-03  10.536  &lt; 2e-16 ***
+Female.Male.Ratio       -1.435e-01  3.507e-02  -4.092 5.67e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.2333 on 267 degrees of freedom
+Multiple R-squared:  0.5595,    Adjusted R-squared:  0.5529 
+F-statistic: 84.77 on 4 and 267 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="http://localhost:5950/#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate residuals for the new model</span></span>
+<span id="cb35-2"><a href="http://localhost:5950/#cb35-2" aria-hidden="true" tabindex="-1"></a>residuals_log <span class="ot">&lt;-</span> <span class="fu">residuals</span>(model_log)</span>
+<span id="cb35-3"><a href="http://localhost:5950/#cb35-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-4"><a href="http://localhost:5950/#cb35-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the new residuals</span></span>
+<span id="cb35-5"><a href="http://localhost:5950/#cb35-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="fu">data.frame</span>(<span class="at">Predicted =</span> <span class="fu">fitted</span>(model_log), <span class="at">Residuals =</span> residuals_log), <span class="fu">aes</span>(<span class="at">x =</span> Predicted, <span class="at">y =</span> Residuals)) <span class="sc">+</span></span>
+<span id="cb35-6"><a href="http://localhost:5950/#cb35-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb35-7"><a href="http://localhost:5950/#cb35-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb35-8"><a href="http://localhost:5950/#cb35-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Residual Plot (Log Transformation)"</span>, <span class="at">x =</span> <span class="st">"Predicted Values"</span>, <span class="at">y =</span> <span class="st">"Residuals"</span>) <span class="sc">+</span></span>
+<span id="cb35-9"><a href="http://localhost:5950/#cb35-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="./Stat 306 Project Final Report_files/unnamed-chunk-13-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Since we transform the response variable Overall Score to its log form, residuals are scattered around the horizontal line at y=0 more evenly, so the constant variance seems to be satisfied, which suggests that the Overall Score log form model is better fitted compared to the linear model. However, we can still observe the non-linearity relationship.</p>
+</section>
+<section id="non-linear-variables-addition" class="level3">
+<h3 class="anchored" data-anchor-id="non-linear-variables-addition">4. Non-linear variables addition<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#non-linear-variables-addition" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<p>To further refine the model, we systematically added squared and cubic terms for each predictor to capture non-linear relationships. Using a dynamic approach, we calculated R2R^2R2 for models with additional polynomial terms and found that including (No.&nbsp;off Students Per Staff)^3</p>
+<p>improved R^2 by <strong>0.05</strong>.</p>
+<p>This final log model showed improved fit with evenly distributed residuals and satisfied assumptions of linear regression.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="http://localhost:5950/#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define a function to calculate R² for models with different polynomial terms</span></span>
+<span id="cb36-2"><a href="http://localhost:5950/#cb36-2" aria-hidden="true" tabindex="-1"></a>get_model_R2 <span class="ot">&lt;-</span> <span class="cf">function</span>(data, terms) {</span>
+<span id="cb36-3"><a href="http://localhost:5950/#cb36-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Create the formula dynamically from the provided terms</span></span>
+<span id="cb36-4"><a href="http://localhost:5950/#cb36-4" aria-hidden="true" tabindex="-1"></a>  formula <span class="ot">&lt;-</span> <span class="fu">as.formula</span>(<span class="fu">paste</span>(<span class="st">"log(OverAll.Score) ~"</span>, <span class="fu">paste</span>(terms, <span class="at">collapse =</span> <span class="st">" + "</span>)))</span>
+<span id="cb36-5"><a href="http://localhost:5950/#cb36-5" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb36-6"><a href="http://localhost:5950/#cb36-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Fit the linear model</span></span>
+<span id="cb36-7"><a href="http://localhost:5950/#cb36-7" aria-hidden="true" tabindex="-1"></a>  model <span class="ot">&lt;-</span> <span class="fu">lm</span>(formula, <span class="at">data =</span> data)</span>
+<span id="cb36-8"><a href="http://localhost:5950/#cb36-8" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb36-9"><a href="http://localhost:5950/#cb36-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Return the R² value from the model summary</span></span>
+<span id="cb36-10"><a href="http://localhost:5950/#cb36-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(<span class="fu">summary</span>(model)<span class="sc">$</span>r.squared)</span>
+<span id="cb36-11"><a href="http://localhost:5950/#cb36-11" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb36-12"><a href="http://localhost:5950/#cb36-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-13"><a href="http://localhost:5950/#cb36-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the base terms (the main variables for the model)</span></span>
+<span id="cb36-14"><a href="http://localhost:5950/#cb36-14" aria-hidden="true" tabindex="-1"></a>base_terms <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"No.of.student"</span>, <span class="st">"No.of.student.per.staff"</span>, <span class="st">"International.Student"</span>, <span class="st">"Female.Male.Ratio"</span>)</span>
+<span id="cb36-15"><a href="http://localhost:5950/#cb36-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-16"><a href="http://localhost:5950/#cb36-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize an empty list to store R² values for different models</span></span>
+<span id="cb36-17"><a href="http://localhost:5950/#cb36-17" aria-hidden="true" tabindex="-1"></a>r2_values <span class="ot">&lt;-</span> <span class="fu">list</span>()</span>
+<span id="cb36-18"><a href="http://localhost:5950/#cb36-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-19"><a href="http://localhost:5950/#cb36-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Initial loop: Add squared and cubic terms for each base variable</span></span>
+<span id="cb36-20"><a href="http://localhost:5950/#cb36-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (term <span class="cf">in</span> base_terms) {</span>
+<span id="cb36-21"><a href="http://localhost:5950/#cb36-21" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Basic model (linear terms only)</span></span>
+<span id="cb36-22"><a href="http://localhost:5950/#cb36-22" aria-hidden="true" tabindex="-1"></a>  terms_1 <span class="ot">&lt;-</span> <span class="fu">c</span>(base_terms, term)</span>
+<span id="cb36-23"><a href="http://localhost:5950/#cb36-23" aria-hidden="true" tabindex="-1"></a>  r2_values[[<span class="fu">paste</span>(term, <span class="st">"1st"</span>)]] <span class="ot">&lt;-</span> <span class="fu">get_model_R2</span>(rank_wrangled, terms_1)</span>
+<span id="cb36-24"><a href="http://localhost:5950/#cb36-24" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb36-25"><a href="http://localhost:5950/#cb36-25" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Add squared term for the current variable</span></span>
+<span id="cb36-26"><a href="http://localhost:5950/#cb36-26" aria-hidden="true" tabindex="-1"></a>  terms_2 <span class="ot">&lt;-</span> <span class="fu">c</span>(terms_1, <span class="fu">paste</span>(<span class="st">"I("</span>, term, <span class="st">"^2)"</span>, <span class="at">sep =</span> <span class="st">""</span>))</span>
+<span id="cb36-27"><a href="http://localhost:5950/#cb36-27" aria-hidden="true" tabindex="-1"></a>  r2_values[[<span class="fu">paste</span>(term, <span class="st">"2nd"</span>)]] <span class="ot">&lt;-</span> <span class="fu">get_model_R2</span>(rank_wrangled, terms_2)</span>
+<span id="cb36-28"><a href="http://localhost:5950/#cb36-28" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb36-29"><a href="http://localhost:5950/#cb36-29" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Add cubic term for the current variable</span></span>
+<span id="cb36-30"><a href="http://localhost:5950/#cb36-30" aria-hidden="true" tabindex="-1"></a>  terms_3 <span class="ot">&lt;-</span> <span class="fu">c</span>(terms_2, <span class="fu">paste</span>(<span class="st">"I("</span>, term, <span class="st">"^3)"</span>, <span class="at">sep =</span> <span class="st">""</span>))</span>
+<span id="cb36-31"><a href="http://localhost:5950/#cb36-31" aria-hidden="true" tabindex="-1"></a>  r2_values[[<span class="fu">paste</span>(term, <span class="st">"3rd"</span>)]] <span class="ot">&lt;-</span> <span class="fu">get_model_R2</span>(rank_wrangled, terms_3)</span>
+<span id="cb36-32"><a href="http://localhost:5950/#cb36-32" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb36-33"><a href="http://localhost:5950/#cb36-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-34"><a href="http://localhost:5950/#cb36-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Output the R² values for all models</span></span>
+<span id="cb36-35"><a href="http://localhost:5950/#cb36-35" aria-hidden="true" tabindex="-1"></a>r2_values</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>$`No.of.student 1st`
+[1] 0.5594584
+
+$`No.of.student 2nd`
+[1] 0.5594876
+
+$`No.of.student 3rd`
+[1] 0.5613499
+
+$`No.of.student.per.staff 1st`
+[1] 0.5594584
+
+$`No.of.student.per.staff 2nd`
+[1] 0.6038789
+
+$`No.of.student.per.staff 3rd`
+[1] 0.6066444
+
+$`International.Student 1st`
+[1] 0.5594584
+
+$`International.Student 2nd`
+[1] 0.5747305
+
+$`International.Student 3rd`
+[1] 0.5842331
+
+$`Female.Male.Ratio 1st`
+[1] 0.5594584
+
+$`Female.Male.Ratio 2nd`
+[1] 0.5644537
+
+$`Female.Male.Ratio 3rd`
+[1] 0.5670415</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="http://localhost:5950/#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Find the best initial model</span></span>
+<span id="cb38-2"><a href="http://localhost:5950/#cb38-2" aria-hidden="true" tabindex="-1"></a>best_term <span class="ot">&lt;-</span> <span class="fu">names</span>(r2_values)[<span class="fu">which.max</span>(<span class="fu">unlist</span>(r2_values))]</span>
+<span id="cb38-3"><a href="http://localhost:5950/#cb38-3" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Best initial model:"</span>, best_term, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Best initial model: No.of.student.per.staff 3rd </code></pre>
+</div>
+</div>
+<p>As we can see, with I(No.of.student.per.staff^3), R square increased 0.05, so we will keep this term.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="http://localhost:5950/#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (term <span class="cf">in</span> base_terms) {</span>
+<span id="cb40-2"><a href="http://localhost:5950/#cb40-2" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Basic model (linear terms only)</span></span>
+<span id="cb40-3"><a href="http://localhost:5950/#cb40-3" aria-hidden="true" tabindex="-1"></a>  terms_1 <span class="ot">&lt;-</span> <span class="fu">c</span>(base_terms, <span class="st">'I(No.of.student.per.staff^3)'</span>, term)</span>
+<span id="cb40-4"><a href="http://localhost:5950/#cb40-4" aria-hidden="true" tabindex="-1"></a>  r2_values[[<span class="fu">paste</span>(term, <span class="st">"1st"</span>)]] <span class="ot">&lt;-</span> <span class="fu">get_model_R2</span>(rank_wrangled, terms_1)</span>
+<span id="cb40-5"><a href="http://localhost:5950/#cb40-5" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb40-6"><a href="http://localhost:5950/#cb40-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Add squared term for the current variable</span></span>
+<span id="cb40-7"><a href="http://localhost:5950/#cb40-7" aria-hidden="true" tabindex="-1"></a>  terms_2 <span class="ot">&lt;-</span> <span class="fu">c</span>(terms_1, <span class="fu">paste</span>(<span class="st">"I("</span>, term, <span class="st">"^2)"</span>, <span class="at">sep =</span> <span class="st">""</span>))</span>
+<span id="cb40-8"><a href="http://localhost:5950/#cb40-8" aria-hidden="true" tabindex="-1"></a>  r2_values[[<span class="fu">paste</span>(term, <span class="st">"2nd"</span>)]] <span class="ot">&lt;-</span> <span class="fu">get_model_R2</span>(rank_wrangled, terms_2)</span>
+<span id="cb40-9"><a href="http://localhost:5950/#cb40-9" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb40-10"><a href="http://localhost:5950/#cb40-10" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Add cubic term</span></span>
+<span id="cb40-11"><a href="http://localhost:5950/#cb40-11" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (term <span class="sc">!=</span> <span class="st">"No.of.student.per.staff"</span>) {</span>
+<span id="cb40-12"><a href="http://localhost:5950/#cb40-12" aria-hidden="true" tabindex="-1"></a>    terms_3 <span class="ot">&lt;-</span> <span class="fu">c</span>(terms_2, <span class="fu">paste</span>(<span class="st">"I("</span>, term, <span class="st">"^3)"</span>, <span class="at">sep =</span> <span class="st">""</span>))</span>
+<span id="cb40-13"><a href="http://localhost:5950/#cb40-13" aria-hidden="true" tabindex="-1"></a>    r2_values[[<span class="fu">paste</span>(term, <span class="st">"3rd"</span>)]] <span class="ot">&lt;-</span> <span class="fu">get_model_R2</span>(rank_wrangled, terms_3)</span>
+<span id="cb40-14"><a href="http://localhost:5950/#cb40-14" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb40-15"><a href="http://localhost:5950/#cb40-15" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb40-16"><a href="http://localhost:5950/#cb40-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-17"><a href="http://localhost:5950/#cb40-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Output the R² values for all models</span></span>
+<span id="cb40-18"><a href="http://localhost:5950/#cb40-18" aria-hidden="true" tabindex="-1"></a>r2_values</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>$`No.of.student 1st`
+[1] 0.5990855
+
+$`No.of.student 2nd`
+[1] 0.6015336
+
+$`No.of.student 3rd`
+[1] 0.6027814
+
+$`No.of.student.per.staff 1st`
+[1] 0.5990855
+
+$`No.of.student.per.staff 2nd`
+[1] 0.6066444
+
+$`No.of.student.per.staff 3rd`
+[1] 0.6066444
+
+$`International.Student 1st`
+[1] 0.5990855
+
+$`International.Student 2nd`
+[1] 0.6154991
+
+$`International.Student 3rd`
+[1] 0.6233858
+
+$`Female.Male.Ratio 1st`
+[1] 0.5990855
+
+$`Female.Male.Ratio 2nd`
+[1] 0.6025373
+
+$`Female.Male.Ratio 3rd`
+[1] 0.6061484</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="http://localhost:5950/#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Find the best initial model</span></span>
+<span id="cb42-2"><a href="http://localhost:5950/#cb42-2" aria-hidden="true" tabindex="-1"></a>best_term <span class="ot">&lt;-</span> <span class="fu">names</span>(r2_values)[<span class="fu">which.max</span>(<span class="fu">unlist</span>(r2_values))]</span>
+<span id="cb42-3"><a href="http://localhost:5950/#cb42-3" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Best initial model:"</span>, best_term, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Best initial model: International.Student 3rd </code></pre>
+</div>
+</div>
+<p>If we try to add a best additional term to it, R square will increase only 0.02. Considering that model is getting more complex, and the increase of R square is not that much, we will not add any additional term.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="http://localhost:5950/#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit the model with  I(No.of.student.per.staff^3)</span></span>
+<span id="cb44-2"><a href="http://localhost:5950/#cb44-2" aria-hidden="true" tabindex="-1"></a>final_model_log <span class="ot">&lt;-</span> <span class="fu">lm</span>(</span>
+<span id="cb44-3"><a href="http://localhost:5950/#cb44-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">log</span>(OverAll.Score) <span class="sc">~</span> No.of.student <span class="sc">+</span> No.of.student.per.staff <span class="sc">+</span>  <span class="fu">I</span>(No.of.student.per.staff<span class="sc">^</span><span class="dv">3</span>) <span class="sc">+</span> International.Student <span class="sc">+</span> Female.Male.Ratio,</span>
+<span id="cb44-4"><a href="http://localhost:5950/#cb44-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> rank_wrangled</span>
+<span id="cb44-5"><a href="http://localhost:5950/#cb44-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb44-6"><a href="http://localhost:5950/#cb44-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-7"><a href="http://localhost:5950/#cb44-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary of the transformed model</span></span>
+<span id="cb44-8"><a href="http://localhost:5950/#cb44-8" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(final_model_log)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = log(OverAll.Score) ~ No.of.student + No.of.student.per.staff + 
+    I(No.of.student.per.staff^3) + International.Student + Female.Male.Ratio, 
+    data = rank_wrangled)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.53640 -0.13623  0.00893  0.13922  0.63727 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)                   4.285e+00  8.524e-02  50.271  &lt; 2e-16 ***
+No.of.student                 1.151e-05  1.067e-06  10.791  &lt; 2e-16 ***
+No.of.student.per.staff      -5.595e-02  5.212e-03 -10.736  &lt; 2e-16 ***
+I(No.of.student.per.staff^3)  2.462e-05  4.803e-06   5.128 5.66e-07 ***
+International.Student         1.097e-02  9.965e-04  11.012  &lt; 2e-16 ***
+Female.Male.Ratio            -1.615e-01  3.370e-02  -4.792 2.75e-06 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.223 on 266 degrees of freedom
+Multiple R-squared:  0.5991,    Adjusted R-squared:  0.5915 
+F-statistic:  79.5 on 5 and 266 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="http://localhost:5950/#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate residuals for the new model</span></span>
+<span id="cb46-2"><a href="http://localhost:5950/#cb46-2" aria-hidden="true" tabindex="-1"></a>residuals_log <span class="ot">&lt;-</span> <span class="fu">residuals</span>(final_model_log)</span>
+<span id="cb46-3"><a href="http://localhost:5950/#cb46-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-4"><a href="http://localhost:5950/#cb46-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the new residuals</span></span>
+<span id="cb46-5"><a href="http://localhost:5950/#cb46-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="fu">data.frame</span>(<span class="at">Predicted =</span> <span class="fu">fitted</span>(final_model_log), <span class="at">Residuals =</span> residuals_log), <span class="fu">aes</span>(<span class="at">x =</span> Predicted, <span class="at">y =</span> Residuals)) <span class="sc">+</span></span>
+<span id="cb46-6"><a href="http://localhost:5950/#cb46-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb46-7"><a href="http://localhost:5950/#cb46-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb46-8"><a href="http://localhost:5950/#cb46-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Residual Plot (Log Transformation with Cubic term)"</span>, <span class="at">x =</span> <span class="st">"Predicted Values"</span>, <span class="at">y =</span> <span class="st">"Residuals"</span>) <span class="sc">+</span></span>
+<span id="cb46-9"><a href="http://localhost:5950/#cb46-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="./Stat 306 Project Final Report_files/unnamed-chunk-16-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Now, the residual plot is much more better since that the points are more evenly distributed around y=0, which shows a better fitness of the model.</p>
+<section id="cross-validation-and-model-evaluation" class="level4">
+<h4 class="anchored" data-anchor-id="cross-validation-and-model-evaluation"><strong>Cross-Validation and Model Evaluation</strong><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#cross-validation-and-model-evaluation" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h4>
+<p>To evaluate the final model, we used cross-validation with 10 folds and calculated the Root Mean Squared Error (RMSE) on the test set. The model’s performance was as follows:</p>
+<ul>
+<li><p><strong>Cross-Validation RMSE</strong>: <em>Value obtained during cross-validation</em>.</p></li>
+<li><p><strong>Test Set RMSE</strong>: <em>Actual RMSE value</em>.</p></li>
+</ul>
+<p>The scatterplot of actual vs.&nbsp;predicted values for the log-transformed model indicated that predictions closely matched the data for lower values of <em>Overall Score</em>. However, predictions for higher values showed slightly larger deviations.</p>
+<p>We used the cross validation method to evaluate the fitness of the model.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href="http://localhost:5950/#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(caret)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: lattice</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="http://localhost:5950/#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)  <span class="co"># Set a random seed for reproducibility</span></span>
+<span id="cb49-2"><a href="http://localhost:5950/#cb49-2" aria-hidden="true" tabindex="-1"></a>trainIndex <span class="ot">&lt;-</span> <span class="fu">createDataPartition</span>(rank_wrangled<span class="sc">$</span>OverAll.Score, <span class="at">p =</span> <span class="fl">0.8</span>, <span class="at">list =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb49-3"><a href="http://localhost:5950/#cb49-3" aria-hidden="true" tabindex="-1"></a>train_data <span class="ot">&lt;-</span> rank_wrangled[trainIndex, ]</span>
+<span id="cb49-4"><a href="http://localhost:5950/#cb49-4" aria-hidden="true" tabindex="-1"></a>test_data <span class="ot">&lt;-</span> rank_wrangled[<span class="sc">-</span>trainIndex, ]</span>
+<span id="cb49-5"><a href="http://localhost:5950/#cb49-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-6"><a href="http://localhost:5950/#cb49-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 3: Make predictions on the test set</span></span>
+<span id="cb49-7"><a href="http://localhost:5950/#cb49-7" aria-hidden="true" tabindex="-1"></a>test_predictions_log <span class="ot">&lt;-</span> <span class="fu">predict</span>(model_log, <span class="at">newdata =</span> test_data)</span>
+<span id="cb49-8"><a href="http://localhost:5950/#cb49-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-9"><a href="http://localhost:5950/#cb49-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Evaluate the model</span></span>
+<span id="cb49-10"><a href="http://localhost:5950/#cb49-10" aria-hidden="true" tabindex="-1"></a><span class="co"># We need to reverse the log transformation for the predictions to compare with actual values</span></span>
+<span id="cb49-11"><a href="http://localhost:5950/#cb49-11" aria-hidden="true" tabindex="-1"></a>test_predictions <span class="ot">&lt;-</span> <span class="fu">exp</span>(test_predictions_log)</span>
+<span id="cb49-12"><a href="http://localhost:5950/#cb49-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-13"><a href="http://localhost:5950/#cb49-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the RMSE (Root Mean Squared Error) to evaluate performance</span></span>
+<span id="cb49-14"><a href="http://localhost:5950/#cb49-14" aria-hidden="true" tabindex="-1"></a>rmse_value <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(<span class="fu">mean</span>((test_data<span class="sc">$</span>OverAll.Score <span class="sc">-</span> test_predictions)<span class="sc">^</span><span class="dv">2</span>))</span>
+<span id="cb49-15"><a href="http://localhost:5950/#cb49-15" aria-hidden="true" tabindex="-1"></a>rmse_value</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 12.34029</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="http://localhost:5950/#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot actual vs predicted values</span></span>
+<span id="cb51-2"><a href="http://localhost:5950/#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="fu">data.frame</span>(<span class="at">Actual =</span> test_data<span class="sc">$</span>OverAll.Score, <span class="at">Predicted =</span> test_predictions), <span class="fu">aes</span>(<span class="at">x =</span> Actual, <span class="at">y =</span> Predicted)) <span class="sc">+</span></span>
+<span id="cb51-3"><a href="http://localhost:5950/#cb51-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">color =</span> <span class="st">"blue"</span>) <span class="sc">+</span></span>
+<span id="cb51-4"><a href="http://localhost:5950/#cb51-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_abline</span>(<span class="at">slope =</span> <span class="dv">1</span>, <span class="at">intercept =</span> <span class="dv">0</span>, <span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span>  <span class="co"># Line of perfect prediction</span></span>
+<span id="cb51-5"><a href="http://localhost:5950/#cb51-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Actual vs Predicted (Log-Transformed Model)"</span>, <span class="at">x =</span> <span class="st">"Actual Values"</span>, <span class="at">y =</span> <span class="st">"Predicted Values"</span>) <span class="sc">+</span></span>
+<span id="cb51-6"><a href="http://localhost:5950/#cb51-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="./Stat 306 Project Final Report_files/unnamed-chunk-18-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="http://localhost:5950/#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Set up cross-validation with 10 folds (you can adjust the number of folds as needed)</span></span>
+<span id="cb52-2"><a href="http://localhost:5950/#cb52-2" aria-hidden="true" tabindex="-1"></a>train_control <span class="ot">&lt;-</span> <span class="fu">trainControl</span>(<span class="at">method =</span> <span class="st">"cv"</span>, <span class="at">number =</span> <span class="dv">10</span>)</span>
+<span id="cb52-3"><a href="http://localhost:5950/#cb52-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-4"><a href="http://localhost:5950/#cb52-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Train the model using cross-validation</span></span>
+<span id="cb52-5"><a href="http://localhost:5950/#cb52-5" aria-hidden="true" tabindex="-1"></a>cv_model <span class="ot">&lt;-</span> <span class="fu">train</span>(</span>
+<span id="cb52-6"><a href="http://localhost:5950/#cb52-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">log</span>(OverAll.Score) <span class="sc">~</span> No.of.student <span class="sc">+</span> No.of.student.per.staff <span class="sc">+</span> International.Student <span class="sc">+</span> Female.Male.Ratio,</span>
+<span id="cb52-7"><a href="http://localhost:5950/#cb52-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> rank_wrangled,</span>
+<span id="cb52-8"><a href="http://localhost:5950/#cb52-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">method =</span> <span class="st">"lm"</span>,          <span class="co"># Use linear regression</span></span>
+<span id="cb52-9"><a href="http://localhost:5950/#cb52-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">trControl =</span> train_control</span>
+<span id="cb52-10"><a href="http://localhost:5950/#cb52-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb52-11"><a href="http://localhost:5950/#cb52-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-12"><a href="http://localhost:5950/#cb52-12" aria-hidden="true" tabindex="-1"></a><span class="co"># View cross-validation results</span></span>
+<span id="cb52-13"><a href="http://localhost:5950/#cb52-13" aria-hidden="true" tabindex="-1"></a>cv_model</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Linear Regression 
+
+272 samples
+  4 predictor
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 244, 245, 245, 244, 244, 246, ... 
+Resampling results:
+
+  RMSE       Rsquared  MAE      
+  0.2367595  0.573646  0.1877871
+
+Tuning parameter 'intercept' was held constant at a value of TRUE</code></pre>
+</div>
+</div>
+</section>
+<section id="key-assumptions-addressed" class="level4">
+<h4 class="anchored" data-anchor-id="key-assumptions-addressed"><strong>Key Assumptions Addressed</strong><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#key-assumptions-addressed" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h4>
+<ul>
+<li><p><strong>Linear Relationship</strong>: Addressed through log transformation and inclusion of polynomial terms.</p></li>
+<li><p><strong>Homoscedasticity</strong>: Verified via residual plots for both original and transformed models.</p></li>
+<li><p><strong>Normality of Residuals</strong>: Assessed but not explicitly violated given the sample size.<br>
+</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary"><strong>Summary</strong><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#summary" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<ul>
+<li>The final model successfully addressed the study objective by identifying significant predictors and incorporating non-linear relationships for improved fit. While limitations remain for predicting higher values, the cross-validation and residual analyses validate the robustness of the model. The scatterplot above compares the actual values to the predicted values generated by a log-transformed regression model. The points are clustered around the diagonal red line, indicating that the model predictions match the actual data fairly well. However, individual actual data that deviate from the line indicate that the model predictions are less accurate. As can be seen in the figure, the spread increases with increasing actual values, which may indicate that the model performs better at lower actual values ​​and worse at higher actual values.</li>
+</ul>
+<section id="interpretation-of-analysis-findings" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation-of-analysis-findings"><strong>Interpretation of Analysis Findings</strong><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#interpretation-of-analysis-findings" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<p>The analysis findings are well-supported by the statistical methods applied. Key interpretations include:</p>
+<ol type="1">
+<li><p><strong>Model Selection</strong>:</p>
+<ul>
+<li><p>Initial forward selection identified the most relevant predictors, excluding <code>Location</code> as it was not statistically significant.</p></li>
+<li><p>Log transformation of the dependent variable (<code>OverAll.Score</code>) improved model fit by addressing issues with constant variance and reducing residual patterns.</p></li>
+<li><p>A cubic term for <code>No.of.student.per.staff</code> was tested to account for potential non-linearity but was ultimately excluded because it added complexity without a substantial improvement in RMSE.</p></li>
+</ul></li>
+<li><p><strong>Residual Analysis</strong>:</p>
+<ul>
+<li>After the log transformation, residuals became more evenly distributed around zero, suggesting that the model adequately captured the main patterns in the data while maintaining simplicity.</li>
+</ul></li>
+<li><p><strong>Model Evaluation</strong>:</p>
+<ul>
+<li><p>The scatterplot of actual vs.&nbsp;predicted values demonstrated that the log-transformed model closely matched actual values for lower scores, though higher scores showed slightly larger deviations.</p></li>
+<li><p>The RMSE on the test set and cross-validation results confirmed the model’s predictive performance and generalizability.</p></li>
+</ul></li>
+</ol>
+</section>
+<section id="study-objective" class="level3">
+<h3 class="anchored" data-anchor-id="study-objective"><strong>Study Objective</strong><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#study-objective" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<p>The study aimed to analyze and predict <code>OverAll.Score</code> based on institutional factors such as <code>No.of.student</code>, <code>No.of.student.per.staff</code>, <code>International.Student</code>, and <code>Female.Male.Ratio</code>.</p>
+<ul>
+<li><p>The analysis effectively modeled the relationship between these variables and <code>OverAll.Score</code> using a simpler log-transformed model.</p></li>
+<li><p>By avoiding unnecessary complexity (e.g., excluding the cubic term), the model aligns with the objective of balancing predictive accuracy with interpretability.</p></li>
+</ul>
+</section>
+<section id="potential-limitations" class="level3">
+<h3 class="anchored" data-anchor-id="potential-limitations"><strong>Potential Limitations</strong><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#potential-limitations" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+<ol type="1">
+<li><p>Although the log transformation addressed variance issues, residual patterns suggest some non-linearity might still exist.</p></li>
+<li><p>While the simpler log-transformed model was chosen for interpretability, this approach might overlook minor gains in predictive accuracy.</p></li>
+<li><p>Forward selection may emphasize statistical significance over domain relevance.</p></li>
+</ol>
+</section>
+<section id="section-1" class="level3">
+<h3 class="anchored" data-anchor-id="section-1"><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:5950/#section-1" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h3>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+
+<script>window.backupDefine = window.define; window.define = undefined;</script>
+<script type="text/javascript" src="./Stat 306 Project Final Report_files/quarto-preview.js"></script>
+<script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+<script type="text/javascript">
+  const options = {
+    origin: "",
+    search: "",
+    inputFile: "/Users/siraajsinghmonga/Downloads/finalreport_Stat306.qmd",
+    isPresentation: false
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    window.QuartoPreview.init(options);
+  });
+</script>
+<div><div dir="ltr" class="fui-FluentProvider fui-FluentProviderr0 ___jdtuxv0 f19n0e5 fxugw4r f1o700av fk6fouc fkhj508 figsok6 f1i3iumi"></div></div><i tabindex="0" role="none" data-tabster-dummy="" aria-hidden="true" style="position: fixed; height: 1px; width: 1px; opacity: 0.001; z-index: -1; content-visibility: hidden; top: 0px; left: 0px;"></i></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
